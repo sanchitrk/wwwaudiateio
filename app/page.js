@@ -95,9 +95,14 @@ export default function Home() {
                     Try the app to see if it is a fit for your needs.
                   </p>
                   <Badge />
-                  <p className="text-sm text-gray-500 dark:text-gray-400">
-                    Always free
-                  </p>
+                  <div>
+                    <Link
+                      href="https://app.audiate.io/"
+                      className="inline-flex h-9 items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+                    >
+                      Try Now
+                    </Link>
+                  </div>
                 </CardContent>
               </Card>
               <Card>
@@ -109,9 +114,14 @@ export default function Home() {
                     Access to all features to boost your productivity.
                   </p>
                   <Badge />
-                  <p className="text-sm text-gray-500 dark:text-gray-400">
-                    coming soon...
-                  </p>
+                  <div>
+                    <button
+                      disabled
+                      className="inline-flex h-9 items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+                    >
+                      Coming Soon...
+                    </button>
+                  </div>
                 </CardContent>
               </Card>
               <Card>
