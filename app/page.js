@@ -130,7 +130,7 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
-                    Talk to us we are here to help to understand your needs.
+                    Talk to us, we are here to understand your needs
                   </p>
                   <Badge />
                   <div>
